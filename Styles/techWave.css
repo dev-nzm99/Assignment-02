@@ -22,6 +22,12 @@
     border: none;
     border-radius: 25px;
 }
+.primary-paragraph{
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 80%;
+    line-height: 20px;
+}
 
 /* header style */
 
@@ -30,10 +36,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #412567;
+    background-color: #1A0B2E;
     color: white;
 }
-#linear-gradient-logo{
+.linear-gradient-logo{
     background: linear-gradient(to right, #ffffff, #ff007f, #ff007f, #f8a400);
     -webkit-background-clip: text;
     color: transparent;
@@ -51,4 +57,105 @@
     font-size: 16px;
     color: white;
     text-decoration: none;
+}
+
+.banner{
+    background-image: url("../assets/hero-bg.png");
+    width: 100%;
+    height: 760px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-circle-container{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   text-align: center;
+}
+.hero-circle-container .hero-circle{
+    width: 400px;
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#inside-hero-circle-img{
+    margin-left: -255px;
+    margin-top: -55px;
+}
+
+.circle-btn{
+    width: 80px;
+    height: 40px;
+    color: #1A0B2E;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #00FF88;   
+    transition: all 0.3s ease;
+}
+
+.circle-btn:hover{
+    background-color: rgba(0, 128, 0, 0.1); 
+    color: white; 
+    border-color: darkgreen; 
+}
+#hero-circle-btn-container{
+    margin-top: -380px;
+    padding-left: 30px;
+}
+
+.title{
+    color: white;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: -30px;
+}  
+
+.primary-btn2{
+    width: 180px;
+    height: 45px;
+    background: linear-gradient(45deg, #ff00cc, #00ffff); 
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+.primary-btn3{
+    width: 180px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #00FF88;
+    color: #00FF88; 
+    padding: 10px 20px;
+    border-radius: 25px; 
+    font-size: 16px; 
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.primary-btn3:hover{
+    background-color: rgba(0, 128, 0, 0.1); 
+    color: white; 
+    border-color: darkgreen; 
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
 }
